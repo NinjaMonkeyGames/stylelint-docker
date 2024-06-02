@@ -1,0 +1,6 @@
+/*  comment */
+/** ↑
+ * The pattern of this */
+
+/*not starting with foo*/
+a { color: red; }
