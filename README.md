@@ -9,11 +9,11 @@ Stylelint. This repository lints CSS files.
 
 **Docker pull address:** monkeyknuckles/stylelint
 
-**NPM Stylelint**           <https://www.npmjs.com/package/stylelint>
-**NPM Stylelint config**    <https://www.npmjs.com/package/stylelint-config-standard>
-**Github Stylelint**        <https://github.com/stylelint/stylelint>
-**Github Stylelint config** <https://github.com/stylelint/stylelint-config-standard>
-**VSC Plugin:**             <https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint>
+* **NPM Stylelint**           <https://www.npmjs.com/package/stylelint>
+* **NPM Stylelint config**    <https://www.npmjs.com/package/stylelint-config-standard>
+* **Github Stylelint**        <https://github.com/stylelint/stylelint>
+* **Github Stylelint config** <https://github.com/stylelint/stylelint-config-standard>
+* **VSC Plugin:**             <https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint>
 
 ## Includes ##
 
@@ -38,4 +38,5 @@ Stylelint. This repository lints CSS files.
 | Version No:    | Description Of Update              |
 |----------------|------------------------------------|
 | 0.0.0.0        | Base files included.               |
+| 0.0.0.1        | Reformatted 'README.md'.           |
 
