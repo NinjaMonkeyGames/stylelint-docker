@@ -9,10 +9,14 @@ FROM alpine:3.20.0
 RUN apk add --no-cache nodejs=20.13.1-r0 npm=10.8.0-r0 && \
     npm install -g stylelint@16.6.1
 
+# INSTALL STYLELINT STANDARD CONFIGURATION
+
+RUN npm install stylelint-config-standard@36.0.0 -g
+
 # SET WORKING DIRECTORY
 
 WORKDIR /app
 
-# INCLUDE '.htmlvalidate.json' IN DOCKER BUILD
+# INCLUDE '.stylelintrc' IN DOCKER BUILD
 
 COPY .stylelintrc ./.stylelintrc

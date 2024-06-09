@@ -52,10 +52,11 @@ See links below for more information about Stylelint and Alpine Linux.
 
 ## Includes ##
 
-* Alpine Linux  v3.20.0
-* Node          v20.13.1
-* NPM           v10.8.0
-* Stylelint     v16.6.1
+* Alpine Linux                v3.20.0
+* Node                        v20.13.1
+* NPM                         v10.8.0
+* Stylelint                   v16.6.1
+* stylelint-config-standard   v36.0.0
 
 ---
 
@@ -63,7 +64,7 @@ See links below for more information about Stylelint and Alpine Linux.
 
 | File Or Folder Name:                  | Files | Description Of File Or Folder Contents                               |
 |---------------------------------------|-------|----------------------------------------------------------------------|
-| > css-fail                            |   49  | Contains examples of every possible docker error.                    |
+| > css-fail                            |   49  | Contains examples of every possible CSS error.                       |
 | .stylelintrc                          |   1   | Contains CSS rule configuration.                                     |
 | > .github > workflows > pipeline.yml  |   1   | Lints all CSS files in docker.                                       |
 | dockerfile                            |   1   | Information on how to build docker.                                  |
@@ -84,7 +85,7 @@ This project uses a sequential versioning system.
 | 0.0.0.1        | Updated 'READEME.md' to align with the layout of the other linter projects.                         |
 | 0.0.0.2        | Updated 'README.md'.                                                                                |
 | 0.0.0.3        | Dockerfile now compiles with specific package versions.                                             |
-
+| 0.0.0.4        | Added standard configuration.                                                                       |
 ---
 
 ## Contact information ##

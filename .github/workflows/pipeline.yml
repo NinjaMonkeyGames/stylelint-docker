@@ -7,7 +7,7 @@ jobs:                                               # Initialise job
     runs-on: ubuntu-latest                          # Specifies the type of VM to provision
 
     container:
-      image: monkeyknuckles/stylelint               # Specifies the Docker container to use
+      image: monkeyknuckles/test                    # Specifies the Docker container to use
 
     steps:
       - name: Checkout code                         # Set Checkout code label text
@@ -16,4 +16,5 @@ jobs:                                               # Initialise job
       - name: Run Stylelint                         # Set Stylelint label
         run: |                                      # Copy Stylelint config file then lint all CSS files 
              cp /app/.stylelintrc $GITHUB_WORKSPACE 
-             stylelint .                              
+             stylelint .
+                              
