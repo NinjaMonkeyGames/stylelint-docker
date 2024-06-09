@@ -86,6 +86,7 @@ This project uses a sequential versioning system.
 | 0.0.0.2        | Updated 'README.md'.                                                                                |
 | 0.0.0.3        | Dockerfile now compiles with specific package versions.                                             |
 | 0.0.0.4        | Added standard configuration.                                                                       |
+| 0.0.0.5        | Changed docker from test to live server monkeyknuckles/stylelint.                                   |
 ---
 
 ## Contact information ##

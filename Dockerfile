@@ -4,7 +4,7 @@
 
 FROM alpine:3.20.0
 
-# INSTALL NODE.JS AND HTML-VALIDATE
+# INSTALL NODE.JS AND STYLELINT
 
 RUN apk add --no-cache nodejs=20.13.1-r0 npm=10.8.0-r0 && \
     npm install -g stylelint@16.6.1
