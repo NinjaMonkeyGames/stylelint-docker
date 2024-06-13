@@ -1,0 +1,3 @@
+@media (--sm) {}
+
+@media (--sm), (max-height: 40rem) {}
