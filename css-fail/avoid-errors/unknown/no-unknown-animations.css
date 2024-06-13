@@ -1,9 +1,0 @@
-a { animation-name: fancy-slide; }
-/**                    ↑
- *   This animation name */
-
-a { animation: fancy-slide 2s linear; }
-/**                    ↑
- *           And this one */
-
- a { animation-name: fancy-slide; }

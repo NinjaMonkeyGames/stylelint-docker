@@ -1,5 +1,0 @@
-.foo, #bar.baz span, #hoo[disabled] { color: pink; }
-/** ↑         ↑
- * These class selectors */
-
- div > #zing + .foo-BAR {}

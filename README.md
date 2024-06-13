@@ -2,28 +2,28 @@
 
 ## What is this repository for? ##
 
-The purpose of this repository is to maintain control over versions of stylelint. This maintains uniformity-
-when enforcing coding standards and formatting rules. This allows for easier upgrades and prevents newer versions from
-breaking the pipeline.
+The purpose of this repository is to maintain control over versions of CSpell. This maintains uniformity when enforcing
+coding standards and formatting rules. This allows for easier upgrades and prevents newer versions from breaking the
+pipeline.
 
 ---
 
 ## Configuration information ##
 
-There is a '.stylelintrc' file containing the stylelint configuration in the root of the project directory. You can
+There is a 'cspell.config.yaml' file containing the CSpell configuration in the root of the project directory. You can
 use the following YAML line to copy this into your project directory.
 
 ```shell
-cp /app/.stylelintrc $GITHUB_WORKSPACE
+cp /app/cspell.config.yaml $GITHUB_WORKSPACE
 ```
 
 Alternately you can use the following command to use your own configuration file.
 
 ```shell
-run: stylelint --config-basedir .stylelintrc .
+cspell . --color --language-id en-GB --config cspell.config.yml
 ```
 
-See links below for more information about Stylelint and Alpine Linux.
+See links below for more information about CSpell and Alpine Linux.
 
 ---
 
@@ -31,32 +31,29 @@ See links below for more information about Stylelint and Alpine Linux.
   
 * **Project links:**
   
-  * **Project Docker pull address:**  docker pull monkeyknuckles/stylelint
+  * **Project Docker pull address:**  docker pull monkeyknuckles/cspell
 
-  * **Project Docker landing page:**  <https://hub.docker.com/r/monkeyknuckles/stylelint>
-  * **Project clone address:**        <https://github.com/NinjaMonkeyGames/stylelint-docker.git>
-  * **Project landing page:**         <https://github.com/NinjaMonkeyGames/stylelint-docker>
-  * **Project wiki page:**            <https://github.com/NinjaMonkeyGames/stylelint-docker/wiki>
+  * **Project Docker landing page:**  <https://hub.docker.com/r/monkeyknuckles/cspell>
+  * **Project clone address:**        <https://github.com/NinjaMonkeyGames/cspell-docker.git>
+  * **Project landing page:**         <https://github.com/NinjaMonkeyGames/cspell-docker>
+  * **Project wiki page:**            <https://github.com/NinjaMonkeyGames/cspell-docker/wiki>
 
 * **3rd Party links:**
 
   * **Alpine source pull address:**   docker pull alpine:3.20.0
 
-  * **Alpine source landing page:**   <https://hub.docker.com/_/alpine>
-  * **Stylecheck website:**           <https://stylelint.io/>
-  * **Stylecheck:**                   <https://github.com/stylelint/stylelint>
-  * **Stylelint config:**             <https://github.com/stylelint/stylelint-config-standard>
-  * **VSC Plugin:**                   <https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint>
+  * **Website:**             <https://cspell.org>
+  * **GitHub CSpell:**       <https://github.com/streetsidesoftware/cspell>
+  * **VSC Plugin:**          <https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker>
 
 ---
 
 ## Includes ##
 
-* Alpine Linux                v3.20.0
-* Node                        v20.13.1
-* NPM                         v10.8.0
-* Stylelint                   v16.6.1
-* stylelint-config-standard   v36.0.0
+* Alpine Linux              v3.20.0
+* Node                      v20.13.1
+* NPM                       v10.8.0
+* CSpell                    v8.8.4
 
 ---
 
@@ -64,9 +61,10 @@ See links below for more information about Stylelint and Alpine Linux.
 
 | File Or Folder Name:                  | Files | Description Of File Or Folder Contents                               |
 |---------------------------------------|-------|----------------------------------------------------------------------|
-| > css-fail                            |   49  | Contains examples of every possible CSS error.                       |
-| .stylelintrc                          |   1   | Contains CSS rule configuration.                                     |
-| > .github > workflows > pipeline.yml  |   1   | Lints all CSS files in docker.                                       |
+| .cspell                               |   1   | List of exceptions for spell check.                                  |
+| cspell.config.yaml                    |   1   | Contains CSpell configuration.                                       |
+| > .git                                |   53  | Contains git configuration files.                                    |
+| > .github > workflows > pipeline.yml  |   1   | Spell checks all files in docker.                                    |
 | dockerfile                            |   1   | Information on how to build docker.                                  |
 | README.md                             |   1   | Contains information about the project.                              |
 | LICENSE                               |   1   | Repository license agreement.                                        |
@@ -82,11 +80,11 @@ This project uses a sequential versioning system.
 | Version No:    | Description Of Update                                                                               |
 |----------------|-----------------------------------------------------------------------------------------------------|
 | 0.0.0.0        | Base files included.                                                                                |
-| 0.0.0.1        | Updated 'READEME.md' to align with the layout of the other linter projects.                         |
-| 0.0.0.2        | Updated 'README.md'.                                                                                |
-| 0.0.0.3        | Dockerfile now compiles with specific package versions.                                             |
-| 0.0.0.4        | Added standard configuration.                                                                       |
-| 0.0.0.5        | Changed docker from test to live server monkeyknuckles/stylelint.                                   |
+| 0.0.0.1        | Aligned project structure with other linters in the project.                                        |
+| 0.0.0.2        | Updated GitHub issue link to the correct location. Added avatar images.                             |
+| 0.0.0.3        | Updated GitHub issue link to the correct location.                                                  |
+| 0.0.0.4        | Internal adjustment to make the project structure consistent across all repositories in the project.|
+
 ---
 
 ## Contact information ##
@@ -100,7 +98,7 @@ If you have any problems with the repository or have any suggestions please cont
 
 You may also contact us via our [website](https://ninjamonkeygames.com).
 
-Any bugs should be raised as an [issue](https://github.com/NinjaMonkeyGames/stylelint-docker/issues) on GitHub.
+Any bugs should be raised as an [issue](https://github.com/NinjaMonkeyGames/cspell-docker/issues) on GitHub.
 
 ---
 

@@ -1,7 +1,0 @@
-{
-    "font-size": ["em", "px"],
-    "/^animation/": "s",
-    "line-height": []
-  }
-
-  a { font-size: 1.2rem; }

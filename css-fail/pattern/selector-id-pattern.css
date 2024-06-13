@@ -1,6 +1,0 @@
-.foo, #bar.baz a, #hoo[disabled] { color: pink; }
-/**   ↑           ↑
- * These ID selectors */
-
-
- div > .zing + #foo-BAR {}

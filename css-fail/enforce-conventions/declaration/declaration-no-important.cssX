@@ -1,5 +1,0 @@
-a { color: pink !important; }
-/**             ↑
- * This !important */
-
- a { color: pink !important; }

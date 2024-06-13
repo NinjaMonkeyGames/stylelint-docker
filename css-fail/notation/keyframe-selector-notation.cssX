@@ -1,3 +1,0 @@
-@keyframes foo { from {} to {} }
-/**              ↑       ↑
- *               These notations */

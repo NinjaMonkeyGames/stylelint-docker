@@ -1,3 +1,0 @@
-a { color: oklch(85% 0.17 88) }
-/**                  ↑
- *                   This notation */
