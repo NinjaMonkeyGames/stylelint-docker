@@ -84,6 +84,8 @@ This project uses a sequential versioning system.
 | 0.0.0.2        | Updated GitHub issue link to the correct location. Added avatar images.                             |
 | 0.0.0.3        | Updated GitHub issue link to the correct location.                                                  |
 | 0.0.0.4        | Internal adjustment to make the project structure consistent across all repositories in the project.|
+| 0.0.0.5        | Changed docker from test to live server monkeyknuckles/stylelint.                                   |
+| 0.0.0.6        | Internal adjustment to make the project structure consistent across all repositories in the project.|
 
 ---
 
